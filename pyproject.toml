@@ -1,0 +1,24 @@
+[project]
+name = "edutrackx"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alok"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.128.0,<0.129.0)",
+    "uvicorn (>=0.40.0,<0.41.0)",
+    "flask (>=3.1.2,<4.0.0)",
+    "streamlit (>=1.52.2,<2.0.0)",
+    "pydantic (>=2.12.5,<3.0.0)",
+    "email-validator (>=2.3.0,<3.0.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "requests (>=2.32.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

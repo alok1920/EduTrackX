@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Added</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Added Successfully 🎉</h2>
+
+        <p><strong>Name:</strong> {{ student.name }}</p>
+        <p><strong>Gender:</strong> {{ student.gender }}</p>
+        <p><strong>Phone:</strong> {{ student.phone }}</p>
+        <p><strong>Email:</strong> {{ student.email }}</p>
+
+        <a href="/dashboard">
+            <button>Add Another Student</button>
+        </a>
+    </div>
+
+</body>
+</html>
