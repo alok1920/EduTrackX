@@ -1,3 +1,6 @@
+# EduTrackX
+
+'''bash
 EduTrackX/
 │
 ├── services/                    ← ALL applications live here
@@ -17,3 +20,4 @@ EduTrackX/
 │       └── app.py                ← Streamlit app starts here
 ├── pyproject.toml                ← Poetry dependencies
 └── README.md
+'''
